@@ -1,0 +1,11 @@
+server.port=8088
+
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://usmrkt.c5y0nh2fomje.us-east-2.rds.amazonaws.com:3306/tmp?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.show-sql=true
+
+spring.application.name=HOTEL-SERVICE
+
+spring.config.import= optional:configserver:http://localhost:8085
